@@ -1,0 +1,122 @@
+/* === Global styles === */
+
+body {
+    margin: 0;
+    font-size: 1.25rem;
+    font-family: "Jura", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #0a0728;
+    color: #fffaeff0;
+    line-height: 1.6;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
+
+.card {
+    background-color: #121636c5;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.1875rem 0.25rem #43A1CC;
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    color: #fffaeff0;
+    justify-content: center;
+}
+
+.blog-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.625rem;
+    box-shadow: 0 0.125rem 0.25rem #f49836dc;
+    margin-bottom: 0.625rem;
+}
+
+figcaption {
+    font-size: 0.625rem;
+    margin-bottom: 1.25rem;
+    color: #43A1CC;
+    text-align: center;
+}
+
+
+/* === Typography === */
+
+h1,
+h2,
+h3 {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    color: #43A1CC;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+
+/* === Responsiveness ===*/
+
+@media (max-width: 768px) {
+    body {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+    p {
+        font-size: 0.875rem;
+    }
+
+    button {
+        font-size: 1rem;
+    }
+
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+
+    .social {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

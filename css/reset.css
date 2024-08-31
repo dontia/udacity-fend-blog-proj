@@ -1,0 +1,66 @@
+/* === Reset margin and padding === */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* === Remove default list styles === */
+
+ul {
+    list-style-type: none;
+}
+
+
+/* === Remove default link styles === */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+/* === Remove default element styles === */
+
+button {
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/* === Set default image styles === */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+/* === Design System ===
+
+fonts: 
+"Jura", sans-serif;
+"Chakra Petch", sans-serif;
+
+background colors:
+#0a0728
+#121636c5
+
+font colors:
+#f9f9f9da
+#43A1CC
+
+shadow colors:
+#43A1CC
+#f49836dc
+
+======================= */

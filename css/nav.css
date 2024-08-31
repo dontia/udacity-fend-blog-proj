@@ -1,0 +1,84 @@
+/* === Navigation styles===*/
+
+header,
+footer,
+nav ul li a {
+    padding: 1.25rem;
+    text-align: center;
+    background-color: #0a0728;
+    color: #fffaeff0;
+}
+
+
+/* === Header ===*/
+
+header {
+    font-family: "Chakra Petch", sans-serif;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    text-decoration: none;
+    padding: 0.625rem 0.9375rem;
+    display: block;
+}
+
+.logo {
+    font-family: "Chakra Petch", sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+
+/* === Footer ===*/
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin: 0 1.25rem;
+    font-size: 1rem;
+    color: #43A1CC;
+}
+
+.social {
+    display: flex;
+    gap: 2.5rem;
+    margin: 0 1.25rem;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    color: #43A1CC;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+
+/* === Animation ===*/
+
+.scale-link {
+    display: inline-block;
+    transition: transform 0.3s ease-in-out;
+}
+
+.scale-link:hover {
+    transform: scale(1.2);
+}

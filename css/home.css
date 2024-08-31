@@ -19,7 +19,14 @@ h1 {
 }
 
 
-/* === Gallery section === */
+/* === Blog grid section === */
+
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
+    gap: 1.25rem;
+    padding: 1.25rem;
+}
 
 button {
     font-family: "Jura", sans-serif;
@@ -29,4 +36,14 @@ button {
     color: #f49836dc;
     background-color: #0a0728;
     box-shadow: 0 0.125rem 0.25rem #f49836dc;
+}
+
+
+
+/* === Responsiveness ===*/
+
+@media (max-width: 768px) {
+    .blog-grid {
+        grid-template-columns: 1fr;
+    }
 }

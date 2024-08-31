@@ -11,13 +11,6 @@ body {
     line-height: 1.6;
 }
 
-.gallery {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
-    gap: 1.25rem;
-    padding: 1.25rem;
-}
-
 .card {
     background-color: #121636c5;
     border-radius: 0.625rem;
@@ -109,10 +102,6 @@ p {
 
     button {
         font-size: 1rem;
-    }
-
-    .gallery {
-        grid-template-columns: 1fr;
     }
 
     .social {

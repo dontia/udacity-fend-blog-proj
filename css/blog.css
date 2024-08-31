@@ -1,4 +1,4 @@
-/* === Blog Page Styles === */
+/* === Blog post header styles === */
 
 h1,
 h2 {
@@ -8,6 +8,9 @@ h2 {
 h1 {
   text-decoration: underline;
 }
+
+
+/* === Blockquote styles === */
 
 blockquote {
   font-size: 1.5rem;
@@ -21,6 +24,9 @@ cite {
   margin: 0.75rem 2.5rem;
   text-align: right;
 }
+
+
+/* === Layout styles === */
 
 .post-text p {
   font-size: 1.5rem;
@@ -47,7 +53,12 @@ cite {
   margin: 0 auto;
 }
 
-.gallery .author {
+
+/* === Author grid === */
+
+.author-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(18.75rem, 1fr));
   gap: 1.75rem;
   padding: 1.25rem;
 }
@@ -81,5 +92,9 @@ cite {
 
   cite {
     font-size: 0.875rem;
+  }
+
+  .author-grid {
+    grid-template-columns: 1fr;
   }
 }
